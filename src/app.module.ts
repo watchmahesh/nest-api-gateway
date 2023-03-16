@@ -7,17 +7,6 @@ import { join } from 'path';
 
 @Module({
   imports: [
-    // ClientsModule.register([
-    //   {
-    //     name: 'DEVICE_PACKAGE',
-    //     transport: Transport.GRPC,
-    //     options: {
-    //       url: 'localhost:3001',
-    //       package: 'mobile_device',
-    //       protoPath: join(__dirname, '../proto/device.proto'),
-    //     },
-    //   },
-    // ]),
     DeviceModule
   ],
   controllers: [AppController],
